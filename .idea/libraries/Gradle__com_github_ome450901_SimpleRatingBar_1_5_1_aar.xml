@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ome450901:SimpleRatingBar:1.5.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5bb68eaa75cf1d0a624b3bd20f298b79/transformed/jetified-SimpleRatingBar-1.5.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5bb68eaa75cf1d0a624b3bd20f298b79/transformed/jetified-SimpleRatingBar-1.5.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5bb68eaa75cf1d0a624b3bd20f298b79/transformed/jetified-SimpleRatingBar-1.5.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ome450901/SimpleRatingBar/1.5.1/99352afd253222be6d63c51d3393cb83bd2e5dc3/SimpleRatingBar-1.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

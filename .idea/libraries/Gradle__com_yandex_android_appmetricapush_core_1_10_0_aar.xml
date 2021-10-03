@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yandex.android:appmetricapush-core:1.10.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d65705a0582c85cee37ebbc728d67b98/transformed/jetified-appmetricapush-core-1.10.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d65705a0582c85cee37ebbc728d67b98/transformed/jetified-appmetricapush-core-1.10.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d65705a0582c85cee37ebbc728d67b98/transformed/jetified-appmetricapush-core-1.10.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

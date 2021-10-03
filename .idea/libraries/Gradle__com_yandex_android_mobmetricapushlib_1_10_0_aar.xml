@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yandex.android:mobmetricapushlib:1.10.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6ee02d2a3c31c6a7f2c1adc747c932a4/transformed/jetified-mobmetricapushlib-1.10.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6ee02d2a3c31c6a7f2c1adc747c932a4/transformed/jetified-mobmetricapushlib-1.10.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6ee02d2a3c31c6a7f2c1adc747c932a4/transformed/jetified-mobmetricapushlib-1.10.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yandex.android/mobmetricapushlib/1.10.0/f1863aa0a7eac7e0d0a848effb4346e5c50f22b0/mobmetricapushlib-1.10.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

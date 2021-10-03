@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="you_have_call_request">شما یک تماس دریافتی دارید</string>
+    <string name="you_have_chat_request">شما یک درخواست چت دارید</string>
+    <string name="accept">قبول</string>
+    <string name="reject">رد</string>
+</resources>

@@ -1,0 +1,49 @@
+buildscript {
+    apply from : "library.gradle"
+    ext.kotlin_version = "1.4.31"
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31"
+        classpath 'com.google.gms:google-services:4.3.5'
+        classpath "org.jetbrains.kotlin:kotlin-allopen:$kotlin_version"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.4"
+        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:1.0.0"
+        classpath 'com.novoda:bintray-release:0.9.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        maven {
+            url 'https://maven.fabric.io/public'
+            allowInsecureProtocol = true
+        }
+        maven {
+            url "https://jitpack.io"
+            allowInsecureProtocol = true
+        }
+        jcenter()
+        maven {
+            url 'https://dl.bintray.com/sysdata/maven'
+            allowInsecureProtocol = true
+        }
+        maven {
+            url 'http://repo.pageturner-reader.org'
+            allowInsecureProtocol = true
+        }
+        maven {
+            url "https://dl.bintray.com/metrixorg/maven"
+            allowInsecureProtocol = true
+        }
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

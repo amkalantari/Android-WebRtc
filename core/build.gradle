@@ -1,0 +1,145 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+}
+
+
+android {
+    compileSdkVersion sdk.compileSdk
+    buildToolsVersion sdk.buildTools
+    defaultConfig {
+        minSdkVersion sdk.minSdk
+        targetSdkVersion sdk.targetSdk
+        versionCode sdk.versionCode
+        versionName sdk.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    /**
+     * Android Support Library
+     * */
+    api deps.kotlin
+    api deps.appCompat
+    api deps.material
+    api deps.constraint
+    api deps.core_ktx
+    api deps.viewModel
+    api deps.recycler
+    api deps.cardView
+    api deps.nav_fragment
+    api deps.nav_ui
+    api deps.paging
+    api deps.multi_dex
+    api deps.legacy
+    api 'androidx.preference:preference-ktx:1.1.1'
+    api 'com.caverock:androidsvg:1.4'
+
+    /**
+     * Android Logger
+     * */
+    api 'com.jakewharton.timber:timber:4.7.1'
+
+
+    /**
+     * Reactive Programming (RxJava)
+     * */
+    api deps.rxJava
+    api deps.rxAndroid
+
+    /**
+     * Room
+     * */
+    api deps.room
+    api deps.room_rx
+    api deps.room_ktx
+    kapt 'org.xerial:sqlite-jdbc:3.34.0'
+    kapt deps.room_kapt
+    testImplementation deps.room_test
+
+    /**
+     * Location
+     */
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+
+
+    /**
+     * Loader
+     */
+    api deps.mkloader
+
+    /**
+     * Retrofit
+     * */
+    api 'com.google.code.gson:gson:2.8.6'
+    api 'com.squareup.okhttp3:okhttp:4.9.0'
+    api 'com.squareup.retrofit2:retrofit:2.9.0'
+    api 'com.squareup.retrofit2:converter-gson:2.6.0'
+    api 'com.squareup.retrofit2:converter-jackson:2.1.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.6.2'
+    api 'com.squareup.okhttp3:logging-interceptor:4.8.0'
+
+    /**
+     * Glide
+     * */
+    api deps.glide
+    api deps.glide_okhttp
+    kapt deps.glide_kapt
+
+    /**
+     * Paging And LifeCycle Library
+     * */
+    api deps.coroutines_android
+    api deps.coroutines_core
+    api deps.lifeCycle_run
+    api deps.lifecycle_livedata
+    api deps.paging
+
+
+
+    /**
+     * Test Library
+     * */
+    kaptAndroidTest deps.dataBinding_test
+    testImplementation deps.junit
+    testImplementation deps.okhttp_test
+
+    androidTestImplementation deps.core_ktx
+
+    androidTestImplementation deps.rules
+    androidTestImplementation deps.runner
+    androidTestImplementation deps.espresso
+    androidTestImplementation deps.core_test
+    androidTestImplementation deps.ext_junit
+}
+repositories {
+    mavenCentral()
+}

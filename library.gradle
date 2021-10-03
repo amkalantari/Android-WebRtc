@@ -1,0 +1,125 @@
+ext.sdk = [
+        compileSdk : 30,
+        minSdk     : 21,
+        targetSdk  : 30,
+        buildTools : "30.0.3",
+        versionCode: 2,
+        versionName: "1.0.1"
+]
+
+ext.versions = [
+        kotlin           : '1.4.0',
+
+        appCompat        : '1.2.0',
+        constraint       : '2.0.1',
+        lifeCycle        : '2.3.1',
+
+        room             : '2.3.0',
+
+        dagger           : '2.22',
+        daggerKapt       : '2.20',
+        core_ktx         : '1.3.2',
+
+        glide            : '4.9.0',
+        paging           : '3.0.0',
+        junit            : '4.12',
+        runner           : '1.0.2',
+        core_test_version: '1.2.0',
+        atsl_version     : '1.1.1',
+        espresso         : '3.2.0',
+        coroutines       : '1.4.3'
+]
+ext.deps = [
+
+        kotlin               : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin",
+        core_ktx             : "androidx.core:core-ktx:$versions.core_ktx",
+        appCompat            : "androidx.appcompat:appcompat:$versions.appCompat",
+        constraint           : "androidx.constraintlayout:constraintlayout:$versions.constraint",
+        material             : "com.google.android.material:material:1.3.0",
+        recycler             : "androidx.recyclerview:recyclerview:1.2.0",
+        cardView             : "androidx.cardview:cardview:1.0.0",
+
+        preference           : 'androidx.preference:preference:1.0.0',
+        indicator            : 'com.romandanylyk:pageindicatorview:1.0.3',
+
+        legacy               : 'androidx.legacy:legacy-support-v4:1.0.0',
+        multi_dex            : "androidx.multidex:multidex:2.0.1",
+
+        nav_fragment         : 'androidx.navigation:navigation-fragment-ktx:2.3.0',
+        nav_ui               : 'androidx.navigation:navigation-ui-ktx:2.3.0',
+
+        gson                 : "com.google.code.gson:gson:2.8.6",
+        mapBox               : "com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.1",
+        mapBoxStyle          : "com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.9.0",
+        mapBoxCore           : "com.mapbox.mapboxsdk:mapbox-android-core:3.1.0",
+
+        okhttp_test          : "com.squareup.okhttp3:mockwebserver:4.9.0",
+
+        date_picker          : "com.github.aliab:Persian-Date-Picker-Dialog:1.7.0",
+        materialratingbar    : "me.zhanghai.android.materialratingbar:library:1.4.0",
+
+        rxJava               : "io.reactivex.rxjava2:rxjava:2.2.12",
+        rxAndroid            : "io.reactivex.rxjava2:rxandroid:2.1.1",
+
+        dagger               : "com.google.dagger:dagger:$versions.dagger",
+        dagger_android       : "com.google.dagger:dagger-android:$versions.dagger",
+        dagger_support       : "com.google.dagger:dagger-android-support:$versions.dagger",
+
+
+        dagger_Kapt          : "com.google.dagger:dagger-compiler:$versions.daggerKapt",
+        dagger_processor     : "com.google.dagger:dagger-android-processor:$versions.dagger",
+
+        room                 : "androidx.room:room-runtime:$versions.room",
+        room_kapt            : "androidx.room:room-compiler:$versions.room",
+        room_ktx             : "androidx.room:room-ktx:$versions.room",
+        room_rx              : "androidx.room:room-rxjava2:$versions.room",
+        room_guava           : "androidx.room:room-guava:$versions.room",
+        room_test            : "androidx.room:room-testing:$versions.room",
+
+        glide                : "com.github.bumptech.glide:glide:$versions.glide",
+        glide_okhttp         : "com.github.bumptech.glide:okhttp3-integration:$versions.glide",
+        glide_kapt           : "com.github.bumptech.glide:compiler:$versions.glide",
+
+        fire_core            : 'com.google.firebase:firebase-analytics:17.2.2',
+        fire_analytic        : 'com.google.firebase:firebase-analytics:17.3.0',
+        fire_crashlytic      : 'com.google.firebase:firebase-crashlytics:17.0.0-beta03',
+
+        junit                : "junit:junit:$versions.junit",
+        coreTest             : "androidx.test:core:$versions.core_version",
+        ext_junit            : "androidx.test.ext:junit:$versions.atsl_version",
+        runner_ext           : "androidx.test.ext:junit:$versions.atsl_version",
+
+        espresso_cont        : "androidx.test.espresso:espresso-contrib:$versions.espresso",
+
+        rules                : 'androidx.test:rules:1.1.0',
+        runner               : 'androidx.test:runner:1.1.0',
+        espresso             : 'androidx.test.espresso:espresso-core:3.1.0',
+
+        localbroadcastmanager: "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+
+        auth                 : "com.google.android.gms:play-services-auth:17.0.0",
+        auth_phone           : "com.google.android.gms:play-services-auth-api-phone:17.3.0",
+        identity_service     : "com.google.android.gms:play-services-identity:17.0.0",
+
+        mkloader             : 'com.tuyenmonkey:mkloader:1.4.0',
+        camera_view          : "com.otaliastudios:cameraview:2.6.4",
+
+        ask                  : 'com.vistrav:ask:2.5',
+
+        legacy_support       : 'androidx.legacy:legacy-support-v4:1.0.0',
+
+        core_test            : "androidx.arch.core:core-testing:2.0.1",
+        fragment_test        : "androidx.fragment:fragment-testing:1.2.0-rc01",
+        dataBinding_test     : "androidx.arch.core:core-testing:2.0.1",
+
+        coroutines_android   : "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines",
+        coroutines_core      : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines",
+
+        lifeCycle_run        : "androidx.lifecycle:lifecycle-runtime-ktx:$versions.lifeCycle",
+        viewModel            : "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifeCycle",
+        lifecycle_livedata   : "androidx.lifecycle:lifecycle-livedata-ktx:$versions.lifeCycle",
+        lifeCycle_ext        : "androidx.lifecycle:lifecycle-extensions:$versions.lifeCycle",
+        lifeCycle_kapt       : "androidx.lifecycle:lifecycle-compiler:$versions.lifeCycle",
+        paging               : "androidx.paging:paging-runtime-ktx:$versions.paging",
+
+]

@@ -1,0 +1,150 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+
+
+android {
+
+    compileSdkVersion sdk.compileSdk
+    buildToolsVersion sdk.buildTools
+
+    defaultConfig {
+        applicationId "com.axon.webrtc"
+        minSdkVersion sdk.minSdk
+        targetSdkVersion sdk.targetSdk
+        multiDexEnabled true
+        versionCode sdk.versionCode
+        versionName sdk.versionName
+        buildConfigField "String", "BASE_URL_API", "\"http://79.127.116.187:31507/api/\""
+        buildConfigField "String", "SOCKET_URL", "\"2.144.5.140\""
+        vectorDrawables.useSupportLibrary = true
+        setProperty("archivesBaseName", "Axon-vName-" + versionName + "-vCode-" + versionCode)
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+        freeCompilerArgs += ["-Xopt-in=kotlin.RequiresOptIn"]
+    }
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+
+    /**
+     * Library
+     * */
+    implementation project(path: ':core')
+    implementation project(path: ':webrtc')
+
+    api deps.kotlin
+    api deps.core_ktx
+    api deps.appCompat
+    api deps.material
+    api deps.constraint
+    api deps.viewModel
+    api deps.recycler
+    api deps.cardView
+    api deps.nav_fragment
+    api deps.nav_ui
+    api deps.multi_dex
+    api deps.legacy
+    api deps.preference
+    api deps.localbroadcastmanager
+    api deps.date_picker
+
+    api 'com.github.ome450901:SimpleRatingBar:1.5.1'
+
+    api 'io.pristine:libjingle:11139@aar'
+    implementation 'com.github.nkzawa:socket.io-client:0.4.2'
+    implementation 'com.myhexaville:smart-image-picker:1.0.4'
+    implementation 'pub.devrel:easypermissions:2.0.0'
+
+
+    /**
+     * Glide
+     * */
+    api deps.glide
+    api deps.glide_okhttp
+    kapt deps.glide_kapt
+
+    /**
+     * Gms
+     * */
+    api deps.auth
+    api deps.auth_phone
+    api deps.identity_service
+
+    /**
+     * Other
+     * */
+    api deps.indicator
+    api deps.materialratingbar
+    implementation 'com.mikhaellopez:circularprogressbar:3.0.3'
+    implementation "com.yandex.android:mobmetricapushlib:1.10.0"
+    implementation "com.android.support:support-compat:28.0.0"
+    implementation 'com.github.Jay-Goo:RangeSeekBar:3.0.0'
+    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+
+    /**
+     * Firebase
+     * */
+    implementation platform('com.google.firebase:firebase-bom:27.0.0')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+
+
+    /**
+     * Dagger V2
+     * */
+    api deps.dagger
+    api deps.dagger_support
+    api deps.legacy_support
+    kapt deps.dagger_Kapt
+
+    /**
+     * Paging And LifeCycle Library
+     * */
+    api deps.coroutines_android
+    api deps.coroutines_core
+    api deps.lifeCycle_run
+    api deps.lifecycle_livedata
+    api deps.paging
+
+    /**
+     * Test Library
+     * */
+    kaptAndroidTest deps.dataBinding_test
+
+    testImplementation deps.junit
+    testImplementation deps.okhttp_test
+
+    androidTestImplementation deps.core_ktx
+    androidTestImplementation deps.rules
+    androidTestImplementation deps.runner
+    androidTestImplementation deps.espresso
+    androidTestImplementation deps.core_test
+    androidTestImplementation deps.ext_junit
+}

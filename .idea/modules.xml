@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebRTC.iml" filepath="$PROJECT_DIR$/.idea/modules/WebRTC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WebRTC.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WebRTC.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/WebRTC.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/WebRTC.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webrtc/WebRTC.webrtc.iml" filepath="$PROJECT_DIR$/.idea/modules/webrtc/WebRTC.webrtc.iml" />
+    </modules>
+  </component>
+</project>

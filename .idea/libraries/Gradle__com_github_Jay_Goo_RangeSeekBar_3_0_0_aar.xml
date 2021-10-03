@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Jay-Goo:RangeSeekBar:3.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bcd3ad0a79b2ee963c4b7f18947faf31/transformed/jetified-RangeSeekBar-3.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bcd3ad0a79b2ee963c4b7f18947faf31/transformed/jetified-RangeSeekBar-3.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bcd3ad0a79b2ee963c4b7f18947faf31/transformed/jetified-RangeSeekBar-3.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bcd3ad0a79b2ee963c4b7f18947faf31/transformed/jetified-RangeSeekBar-3.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Jay-Goo/RangeSeekBar/3.0.0/3d0a66f7f3571a6d71b3a81e9c81bf893b3bf5b0/RangeSeekBar-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Jay-Goo/RangeSeekBar/3.0.0/175ef497aa84cd93da2bb9d610c2d8b0a137505b/RangeSeekBar-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

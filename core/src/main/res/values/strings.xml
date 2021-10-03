@@ -1,0 +1,30 @@
+<resources>
+
+
+    <string name="forbidden">غیر مجاز</string>
+    <string name="eofException">خطای فایل</string>
+    <string name="ioException">خطای برقراری ارتباط با سرور</string>
+    <string name="internetConnection">خطای برقراری ارتباط با سرور</string>
+    <string name="sslException">خطای برقراری ارتباط با سرور</string>
+    <string name="sqLiteException">خطای ذخیره سازی اطلاعات</string>
+    <string name="authorization">خطای دسترسی</string>
+    <string name="runtimeException">خطایی رخ داده</string>
+    <string name="jsonFormat">خطایی رخ داده</string>
+    <string name="undefine">خطایی رخ داده</string>
+
+    <string name="space">\u0020</string>
+
+
+    <string name="close"> بستن</string>
+    <string name="help">راهنما</string>
+    <string name="empty_error_recycler">موردی برای نمایش یافت نشد</string>
+    <string name="sort_by_uniqueid">مرتب سازی بر اساس کد کالا</string>
+    <string name="sort_by_name">مرتب سازی براساس نام کالا</string>
+    <string name="sort_by_customer_price">مرتب سازی براساس قیمت مصرف</string>
+
+    <string name="hospital_product">بیمارستانی</string>
+    <string name="fridge_product">یخچالی</string>
+    <string name="favorite">علاقه مندی</string>
+    <string name="brand_filter">فیلتر براساس برند</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="baseView">
+        <attr name="is_square" format="boolean" />
+        <attr name="confirm_length" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ConstraintCustom">
+        <attr name="is_square" />
+    </declare-styleable>
+
+    <declare-styleable name="TextViewCustom">
+        <attr name="is_square" />
+        <attr name="confirm_length" />
+    </declare-styleable>
+
+    <declare-styleable name="ButtonCustom">
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:fontFamily" />
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="TextInputLayoutCustom">
+        <attr name="android:ems" />
+        <attr name="android:fontFamily" />
+        <attr name="android:inputType" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:textColorHint" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageViewCustom">
+        <attr name="imageResource" format="integer" />
+        <attr name="is_square" />
+    </declare-styleable>
+
+    <declare-styleable name="FormTextViewCustom">
+        <attr name="titleText"  format="integer" />
+        <attr name="descText"   format="integer" />
+        <attr name="titleColor" format="integer" />
+        <attr name="descColor"  format="integer" />
+    </declare-styleable>
+
+
+</resources>

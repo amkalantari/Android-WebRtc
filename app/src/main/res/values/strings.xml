@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AxonCall</string>
+    <string name="welcome">خوش آمدید</string>
+    <string name="register_user_name">نام کاربری</string>
+
+    <string name="login">ورود به حساب کاربری من</string>
+    <string name="user_name_place_holder">مثلا xxxxx</string>
+    <string name="edit_phone_number">تغییر نام کاربری</string>
+    <string name="no_internet_connection">اینترنت قطع شده است</string>
+    <string name="no_internet_connection_desc">لطفا اتصالات مربوط به اینترنت خود را بررسی نموده و دوباره امتحان کنید</string>
+    <string name="again">تلاش مجدد</string>
+    <string name="login_and_register">ورود</string>
+    <string name="send_verification_code">ورود به حساب کاربری من</string>
+    <string name="user_list_title">لیست کاربران</string>
+    <string name="chat_title">چت</string>
+    <string name="chat_hint">پیام شما</string>
+    <string name="server_connection_error">خطای برقراری ارتباط با سرور</string>
+    <string name="you_have_call_request">شما یک تماس دریافتی دارید</string>
+    <string name="you_have_chat_request">شما یک درخواست چت دارید</string>
+    <string name="accept">قبول</string>
+    <string name="reject">رد</string>
+
+</resources>

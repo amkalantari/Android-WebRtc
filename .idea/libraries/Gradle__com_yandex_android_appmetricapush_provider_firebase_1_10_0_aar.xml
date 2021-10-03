@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yandex.android:appmetricapush-provider-firebase:1.10.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/802853bf2e5c8b6a62908b3bc8916b92/transformed/jetified-appmetricapush-provider-firebase-1.10.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/802853bf2e5c8b6a62908b3bc8916b92/transformed/jetified-appmetricapush-provider-firebase-1.10.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/802853bf2e5c8b6a62908b3bc8916b92/transformed/jetified-appmetricapush-provider-firebase-1.10.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

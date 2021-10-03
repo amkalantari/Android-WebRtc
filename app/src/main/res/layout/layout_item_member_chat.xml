@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layoutDirection="rtl"
+        android:layout_height="wrap_content">
+
+        <com.core.widget.TextViewCustom
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/member_chat_bubble_background"
+            android:minHeight="60dp"
+            android:minWidth="100dp"
+            android:layout_margin="@dimen/dimen_8"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_14"
+            android:fontFamily="@font/iranyekan"
+            tools:text="amiir salam"
+            android:padding="@dimen/dimen_8"/>
+
+
+    </RelativeLayout>
+
+</layout>

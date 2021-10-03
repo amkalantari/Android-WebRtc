@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen_null">0dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="dimen_48">48dp</dimen>
+    <dimen name="dimen_56">56dp</dimen>
+    <dimen name="dimen_64">64dp</dimen>
+
+    <dimen name="grid_expected_size">120dp</dimen>
+
+    <dimen name="font_size_10">10sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+
+    <dimen name="numberedtextlist_defaulttextmargin">2dp</dimen>
+    <dimen name="numberedtextlist_textsize">12sp</dimen>
+    <dimen name="numberedtextlist_defaultitemmargin">8dp</dimen>
+
+    <dimen name="main_navbar_elevation">12dp</dimen>
+
+    <dimen name="advertisement_horizontal_margin">10dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+
+    <dimen name="stepper_tab_icon_padding">5.5dp</dimen>
+
+    <dimen name="stepper_tab_text_spacing">12dp</dimen>
+
+    <dimen name="stepper_progress_spacing">6dp</dimen>
+
+</resources>

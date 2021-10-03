@@ -1,0 +1,4 @@
+rootProject.name = "WebRTC"
+include ':app'
+include ':core'
+include ':webrtc'
